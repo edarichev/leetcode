@@ -50,6 +50,20 @@ public:
         std::copy(v.begin(), v.end(), nums.begin());
     }
 
+    void rotate2(vector<int>& nums, int k) {
+        int n = nums.size();
+        k = k % n; // Reduce k to its smallest positive equivalent
+
+        // Reverse the entire array
+        reverse(nums.begin(), nums.end());
+
+        // Reverse the first k elements
+        reverse(nums.begin(), nums.begin() + k);
+
+        // Reverse the remaining elements
+        reverse(nums.begin() + k, nums.end());
+    }
+
     void rotate(vector<int>& nums, int k) {
         // быстрее, но больше памяти
         int n = nums.size();
@@ -74,7 +88,7 @@ void test()
     vector<int> nums = {1,2,3,4,5,6,7};
     int k = 3;
     Solution s;
-    s.rotate(nums, k);
+    s.rotate2(nums, k);
     printV(nums);
 }
 
