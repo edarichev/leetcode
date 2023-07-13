@@ -47,14 +47,14 @@ public:
             return citations[0] == 0 ? 0 : 1;
         int left = 0;
         int right = n - 1;
-        int h=0;
+        int h = 0;
         while (left <= right) {
             int mid = (left + right) / 2;
             if (n - mid <= citations[mid]) {
                 h = n - mid;
                 right = mid - 1;
             }
-            else{
+            else {
                 left = mid + 1;
             }
         }

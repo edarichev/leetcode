@@ -22,8 +22,10 @@ HEADERS += \
     problems/c0169.h \
     problems/c0189.h \
     problems/c0224_227.h \
+    problems/c0238.h \
     problems/c0274.h \
     problems/c0275.h \
+    problems/c0380.h \
     problems/c1071.h \
     problems/c1768.h \
     problems/global.h
