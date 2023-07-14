@@ -7,6 +7,7 @@ SOURCES += \
         main.cpp
 
 HEADERS += \
+    problems/c0012.h \
     problems/c0013.h \
     problems/c0026.h \
     problems/c0027.h \
@@ -14,6 +15,7 @@ HEADERS += \
     problems/c0046.h \
     problems/c0055.h \
     problems/c0058.h \
+    problems/c0067.h \
     problems/c0080.h \
     problems/c0088.h \
     problems/c0118.h \

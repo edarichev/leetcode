@@ -1,5 +1,5 @@
 #include <iostream>
-#include "problems/c0238.h"
+#include "problems/c0067.h"
 
 using namespace std;
 
