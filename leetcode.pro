@@ -9,6 +9,7 @@ SOURCES += \
 HEADERS += \
     problems/c0012.h \
     problems/c0013.h \
+    problems/c0020.h \
     problems/c0026.h \
     problems/c0027.h \
     problems/c0045.h \
@@ -24,10 +25,12 @@ HEADERS += \
     problems/c0125.h \
     problems/c0169.h \
     problems/c0189.h \
+    problems/c0205.h \
     problems/c0224_227.h \
     problems/c0238.h \
     problems/c0274.h \
     problems/c0275.h \
+    problems/c0290.h \
     problems/c0380.h \
     problems/c0392.h \
     problems/c1071.h \
