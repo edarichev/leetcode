@@ -1,5 +1,5 @@
 #include <iostream>
-#include "problems/c0020.h"
+#include "problems/c0068_Text_Justification.h"
 
 using namespace std;
 

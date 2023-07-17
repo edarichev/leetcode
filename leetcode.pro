@@ -17,6 +17,7 @@ HEADERS += \
     problems/c0055.h \
     problems/c0058.h \
     problems/c0067.h \
+    problems/c0068_Text_Justification.h \
     problems/c0080.h \
     problems/c0088.h \
     problems/c0118.h \

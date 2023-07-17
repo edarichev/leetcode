@@ -34,10 +34,12 @@ void printV2(const vector<vector<T>> &r)
 }
 
 template<typename T>
-void printV(const vector<T> &r)
+void printV(const vector<T> &r, int iFrom = -1, int iTo = -1)
 {
     cout << "[";
-    for (size_t j = 0; j < r.size(); j++) {
+    size_t j = iFrom >= 0 ? iFrom : 0;
+    size_t n = iTo >= 0 && iTo >= iFrom ? iTo : r.size();
+    for (; j < n; j++) {
         cout << r[j];
         if (j < r.size() - 1)
             cout << ",";
