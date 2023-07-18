@@ -18,6 +18,7 @@ HEADERS += \
     problems/c0058.h \
     problems/c0067.h \
     problems/c0068_Text_Justification.h \
+    problems/c0069_Sqrt.h \
     problems/c0080.h \
     problems/c0088.h \
     problems/c0118.h \
@@ -29,6 +30,7 @@ HEADERS += \
     problems/c0205.h \
     problems/c0224_227.h \
     problems/c0238.h \
+    problems/c0242_Valid_Anagram.h \
     problems/c0274.h \
     problems/c0275.h \
     problems/c0290.h \
