@@ -7,6 +7,7 @@ SOURCES += \
         main.cpp
 
 HEADERS += \
+    problems/c0011_Container_With_Most_Water.h \
     problems/c0012.h \
     problems/c0013.h \
     problems/c0020.h \
@@ -25,6 +26,7 @@ HEADERS += \
     problems/c0121.h \
     problems/c0122.h \
     problems/c0125.h \
+    problems/c0167_Two_Sum_II_Input_Array_Is_Sorted.h \
     problems/c0169.h \
     problems/c0189.h \
     problems/c0205.h \
