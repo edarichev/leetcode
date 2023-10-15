@@ -1,0 +1,17 @@
+; полезные фрагменты
+
+; abs(x)
+; для нахождения модуля можно использовать такие варианты:
+        mov     rcx, rbx        ; сохраним текущее значение rbx
+        neg     rbx
+        cmovl   rbx, rcx        ; переслать данные из rcx->rbx, если предыдущее значение rbx меньше последнего (SF<>OF)
+        mov     [len], rbx
+        
+        ; ещё способ: abs(x) = (x XOR y) - y, где y = x >> 31 (или 63, смотря какой размер числа)
+        mov     rcx, rbx        ; y
+        shr     rcx, 63
+        mov     rax, rbx        ; <- x
+        xor     rax, rcx        ; x XOR y
+        sub     rax, rcx
+        mov     [len], rax
+
