@@ -14,4 +14,7 @@
         xor     rax, rcx        ; x XOR y
         sub     rax, rcx
         mov     [len], rax
-
+; обменять два xmm регистра
+        pxor    xmm5, xmm6
+        pxor    xmm6, xmm5
+        pxor    xmm5, xmm6
