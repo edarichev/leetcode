@@ -43,7 +43,7 @@ minFromXmm1_1:
         movsd   xmm0, xmm1
 done:
         movsd   [N], xmm0
-        ; вывод: выбираем строку True/False по значению rax
+        ; вывод
         mov     rax, 4          ; кол-во вещественных
         mov     rdi, strFormat
         movsd   xmm0, [A]

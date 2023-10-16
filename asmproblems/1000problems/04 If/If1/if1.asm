@@ -21,7 +21,7 @@ main:
         jng     done
         inc     rdx
 done:
-        ; вывод: выбираем строку True/False по значению rax
+        ; вывод
         mov     rax, 0          ; кол-во вещественных
         mov     rdi, strFormat
         mov     rsi, A

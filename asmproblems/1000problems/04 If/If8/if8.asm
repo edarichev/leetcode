@@ -22,7 +22,7 @@ main:
         jge     done
         xchg    r8, rcx         ; если rcx < r8, обменяем
 done:
-        ; вывод: выбираем строку True/False по значению rax
+        ; вывод
         mov     rax, 0          ; кол-во вещественных
         mov     rdi, strFormat
         mov     rsi, A

@@ -35,7 +35,7 @@ revertA:
 done:
         movsd   [A1], xmm0
         movsd   [B1], xmm1
-        ; вывод: выбираем строку True/False по значению rax
+        ; вывод
         mov     rax, 4          ; кол-во вещественных
         mov     rdi, strFormat
         movsd   xmm0, [A]

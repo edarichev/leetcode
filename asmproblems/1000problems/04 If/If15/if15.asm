@@ -51,7 +51,7 @@ done:
         movsd   xmm0, xmm6
         addsd   xmm0, xmm7
         movsd   [Sum], xmm0
-        ; вывод: выбираем строку True/False по значению rax
+        ; вывод
         mov     rax, 4          ; кол-во вещественных
         mov     rdi, strFormat
         movsd   xmm0, [A]

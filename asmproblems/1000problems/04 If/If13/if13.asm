@@ -51,7 +51,7 @@ cmp5_6:                         ; повторяем сравнение 5 и 6
         movsd   xmm6, xmm5      ; важно только в xmm6
 done:
         movsd   [N], xmm6
-        ; вывод: выбираем строку True/False по значению rax
+        ; вывод:
         mov     rax, 4          ; кол-во вещественных
         mov     rdi, strFormat
         movsd   xmm0, [A]

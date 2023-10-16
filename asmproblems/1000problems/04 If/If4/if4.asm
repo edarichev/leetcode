@@ -33,7 +33,7 @@ checkC:
         inc     rcx
 done:
         mov     [N], rcx
-        ; вывод: выбираем строку True/False по значению rax
+        ; вывод
         mov     rax, 0          ; кол-во вещественных
         mov     rdi, strFormat
         mov     rsi, A

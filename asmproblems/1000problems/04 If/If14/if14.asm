@@ -56,7 +56,7 @@ check5_6:                       ; аналогичный блок
 done:
         movsd   [NMin], xmm5
         movsd   [NMax], xmm7
-        ; вывод: выбираем строку True/False по значению rax
+        ; вывод:
         mov     rax, 5          ; кол-во вещественных
         mov     rdi, strFormat
         movsd   xmm0, [A]
