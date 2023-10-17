@@ -18,3 +18,10 @@
         pxor    xmm5, xmm6
         pxor    xmm6, xmm5
         pxor    xmm5, xmm6
+; целое в xmm:
+        mov     rax, 13
+        cvtsi2sd xmm0, rax      ; xmm0 <- 13
+; округление:
+        cvttsd2si rax, xmm0     ; округление с усечением, MXCSR не используется
+; расширить регистр:
+        movsx   rax, word [N]
