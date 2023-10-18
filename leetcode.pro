@@ -53,43 +53,44 @@ HEADERS += \
     car/stacks.h \
     car/templates.h \
     car/testhashtable.h \
+    cpptemplates/variadic1.h \
     helpers.h \
     myiterator.h \
-    problems/c0011_Container_With_Most_Water.h \
-    problems/c0012.h \
-    problems/c0013.h \
-    problems/c0015_3Sum.h \
-    problems/c0020.h \
-    problems/c0026.h \
-    problems/c0027.h \
-    problems/c0045.h \
-    problems/c0046.h \
-    problems/c0055.h \
-    problems/c0058.h \
-    problems/c0067.h \
-    problems/c0068_Text_Justification.h \
-    problems/c0069_Sqrt.h \
-    problems/c0080.h \
-    problems/c0088.h \
-    problems/c0118.h \
-    problems/c0121.h \
-    problems/c0122.h \
-    problems/c0125.h \
-    problems/c0167_Two_Sum_II_Input_Array_Is_Sorted.h \
-    problems/c0169.h \
-    problems/c0189.h \
-    problems/c0205.h \
-    problems/c0224_227.h \
-    problems/c0238.h \
-    problems/c0242_Valid_Anagram.h \
-    problems/c0274.h \
-    problems/c0275.h \
-    problems/c0290.h \
-    problems/c0380.h \
-    problems/c0392.h \
-    problems/c1071.h \
-    problems/c1768.h \
-    problems/global.h \
+    leetcode/c0011_Container_With_Most_Water.h \
+    leetcode/c0012.h \
+    leetcode/c0013.h \
+    leetcode/c0015_3Sum.h \
+    leetcode/c0020.h \
+    leetcode/c0026.h \
+    leetcode/c0027.h \
+    leetcode/c0045.h \
+    leetcode/c0046.h \
+    leetcode/c0055.h \
+    leetcode/c0058.h \
+    leetcode/c0067.h \
+    leetcode/c0068_Text_Justification.h \
+    leetcode/c0069_Sqrt.h \
+    leetcode/c0080.h \
+    leetcode/c0088.h \
+    leetcode/c0118.h \
+    leetcode/c0121.h \
+    leetcode/c0122.h \
+    leetcode/c0125.h \
+    leetcode/c0167_Two_Sum_II_Input_Array_Is_Sorted.h \
+    leetcode/c0169.h \
+    leetcode/c0189.h \
+    leetcode/c0205.h \
+    leetcode/c0224_227.h \
+    leetcode/c0238.h \
+    leetcode/c0242_Valid_Anagram.h \
+    leetcode/c0274.h \
+    leetcode/c0275.h \
+    leetcode/c0290.h \
+    leetcode/c0380.h \
+    leetcode/c0392.h \
+    leetcode/c1071.h \
+    leetcode/c1768.h \
+    leetcode/global.h \
     saj/circularbuffer.h \
     saj/p1_1_15.h \
     saj/p1_3_29.h \
