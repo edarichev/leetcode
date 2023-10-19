@@ -33,10 +33,7 @@ section .data
         numbers         dq      sname6, sname7, sname8, sname9, sname10,
                         dq      sname11, sname12, sname13, sname14
 section .bss
-        A1              resq    1
-        R1_1            resq    1
-        R2_1            resq    1
-        S1              resq    1
+        
 section .text
         global  main
 main:
@@ -67,7 +64,7 @@ case_default:
         call    printf
         jmp     exit
 done:
-        mov     rax, 0          ; 4 Вещественных
+        mov     rax, 0          ; 0 Вещественных
         mov     rdi, strFormat
         call    printf
 exit:
