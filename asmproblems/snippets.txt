@@ -25,3 +25,13 @@
         cvttsd2si rax, xmm0     ; округление с усечением, MXCSR не используется
 ; расширить регистр:
         movsx   rax, word [N]
+; сравнение вещественных
+        одна из команд cmppd: cmplepd и т.д.
+; поместить в стек xmm-регистр:
+        sub     rsp, 16
+        movq    qword [rsp], xmm6
+
+        call    printf          ; что-то вызываем
+
+        movq    xmm0, qword [rsp]
+        add     rsp, 16
