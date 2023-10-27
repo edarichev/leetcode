@@ -14,6 +14,11 @@
         xor     rax, rcx        ; x XOR y
         sub     rax, rcx
         mov     [len], rax
+;abs (xmm5):
+        mov     rax, 0x7fffffffffffffff
+        movq    xmm6, rax       ; маска для сброса знакового бита в xmm-регистре
+        pand    xmm5, xmm6      ; знаковый бит -> 0
+
 ; обменять два xmm регистра
         pxor    xmm5, xmm6
         pxor    xmm6, xmm5
