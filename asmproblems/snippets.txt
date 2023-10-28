@@ -28,6 +28,7 @@
         cvtsi2sd xmm0, rax      ; xmm0 <- 13
 ; округление:
         cvttsd2si rax, xmm0     ; округление с усечением, MXCSR не используется
+        roundps xmm2, xmm2, 0   ; SSE4.1, режим 0 - округлить как обычно, 3 - в меньшую сторону
 ; расширить регистр:
         movsx   rax, word [N]
 ; сравнение вещественных
@@ -44,3 +45,26 @@
         mov     rax, 0x8000000000000000
         movq    xmm2, rax
         pxor    xmm0, xmm2      ; сменить старший бит на противоположный
+; сложить все числа в xmm-регистре:
+        //accumulating xmm[0]+xmm[1]+xmm[2]+xmm[3] into xmm[0]
+         
+        //SSE3:
+         
+        haddps xmm0,xmm0
+        haddps xmm0,xmm0
+         
+        //SSE2:
+         
+        movhlps xmm1, xmm0 // Get bit 64-127 from xmm1
+        addps xmm0, xmm1 // Sums are in 2 dwords
+        pshufd xmm1, xmm0, 1 // Get bit 32-63 from xmm0
+        addss xmm0, xmm1 // Sum is in one dword
+         
+        //SSE:
+         
+        movaps xmm1, xmm0
+        shufps xmm1, xmm1,(2+4*3+16*0+64*1)
+        addps xmm0, xmm1
+        movaps xmm1, xmm0
+        shufps xmm1, xmm0,(1+4*1+16*3+64*3)
+        addss xmm0, xmm1
