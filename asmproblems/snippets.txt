@@ -18,6 +18,10 @@
         mov     rax, 0x7fffffffffffffff
         movq    xmm6, rax       ; маска для сброса знакового бита в xmm-регистре
         pand    xmm5, xmm6      ; знаковый бит -> 0
+; ещё abs(xmm7):
+        movq    rax, xmm7       ; dx
+        btr     rax, 63         ; IEEE 754, старший бит знаковый, сбросим его
+        movq    xmm7, rax       ; |dx|
 
 ; обменять два xmm регистра
         pxor    xmm5, xmm6
