@@ -55,7 +55,7 @@ public:
         auto f15 = topValid->left->addRight(15);
         auto f17 = topValid->left->right->addRight(17);
 
-        //printBTree(topValid);
+        printBTree(topValid);
 
         auto n1 = getNextNode(f5);
         ASSERT(n1->value == 15);

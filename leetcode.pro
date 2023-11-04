@@ -92,7 +92,12 @@ HEADERS += \
     leetcode/c1768.h \
     leetcode/global.h \
     saj/circularbuffer.h \
+    saj/p1_1_11.h \
+    saj/p1_1_13.h \
     saj/p1_1_15.h \
+    saj/p1_1_16.h \
+    saj/p1_1_3.h \
+    saj/p1_1_9.h \
     saj/p1_3_29.h \
     saj/p1_3_30.h \
     saj/smalls.h \
