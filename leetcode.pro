@@ -55,6 +55,7 @@ HEADERS += \
     car/testhashtable.h \
     cpptemplates/variadic1.h \
     helpers.h \
+    leetcode/c0001_Two_Sum.h \
     myiterator.h \
     leetcode/c0011_Container_With_Most_Water.h \
     leetcode/c0012.h \
