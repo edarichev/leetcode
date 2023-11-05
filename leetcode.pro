@@ -97,6 +97,11 @@ HEADERS += \
     saj/p1_1_13.h \
     saj/p1_1_15.h \
     saj/p1_1_16.h \
+    saj/p1_1_19.h \
+    saj/p1_1_20.h \
+    saj/p1_1_21.h \
+    saj/p1_1_22.h \
+    saj/p1_1_24.h \
     saj/p1_1_3.h \
     saj/p1_1_9.h \
     saj/p1_3_29.h \
