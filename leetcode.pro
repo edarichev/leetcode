@@ -53,9 +53,11 @@ HEADERS += \
     car/stacks.h \
     car/templates.h \
     car/testhashtable.h \
+    cpptemplates/factorial.h \
     cpptemplates/variadic1.h \
     helpers.h \
     leetcode/c0001_Two_Sum.h \
+    leetcode/c0009_Palindrome_Number.h \
     myiterator.h \
     leetcode/c0011_Container_With_Most_Water.h \
     leetcode/c0012.h \
@@ -93,6 +95,8 @@ HEADERS += \
     leetcode/c1768.h \
     leetcode/global.h \
     saj/circularbuffer.h \
+    saj/p1_1_03.h \
+    saj/p1_1_09.h \
     saj/p1_1_11.h \
     saj/p1_1_13.h \
     saj/p1_1_15.h \
@@ -102,8 +106,8 @@ HEADERS += \
     saj/p1_1_21.h \
     saj/p1_1_22.h \
     saj/p1_1_24.h \
-    saj/p1_1_3.h \
-    saj/p1_1_9.h \
+    saj/p1_1_27.h \
+    saj/p1_1_28.h \
     saj/p1_3_29.h \
     saj/p1_3_30.h \
     saj/smalls.h \
