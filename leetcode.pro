@@ -58,6 +58,7 @@ HEADERS += \
     helpers.h \
     leetcode/c0001_Two_Sum.h \
     leetcode/c0009_Palindrome_Number.h \
+    leetcode/c0066_Plus_One.h \
     myiterator.h \
     leetcode/c0011_Container_With_Most_Water.h \
     leetcode/c0012.h \
