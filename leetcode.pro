@@ -109,6 +109,7 @@ HEADERS += \
     saj/p1_1_24.h \
     saj/p1_1_27.h \
     saj/p1_1_28.h \
+    saj/p1_1_33_Matrix.h \
     saj/p1_3_29.h \
     saj/p1_3_30.h \
     saj/smalls.h \
