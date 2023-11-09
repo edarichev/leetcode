@@ -1,13 +1,13 @@
 #include <iostream>
-//#include "leetcode/c0066_Plus_One.h"
-#include "saj/p1_1_33_Matrix.h"
+#include "leetcode/c0035_Search_Insert_Position.h"
+//#include "saj/p1_1_33_Matrix.h"
 //#include "car/car_4_6.h"
 
 using namespace std;
 
 int main()
 {
-    //test(); // leetcode
-    Solution::test();
+    test(); // leetcode
+    //Solution::test();
     return 0;
 }
