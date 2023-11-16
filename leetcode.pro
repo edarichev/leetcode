@@ -58,6 +58,7 @@ HEADERS += \
     helpers.h \
     leetcode/c0001_Two_Sum.h \
     leetcode/c0009_Palindrome_Number.h \
+    leetcode/c0021_Merge_Two_Sorted_Lists.h \
     leetcode/c0035_Search_Insert_Position.h \
     leetcode/c0066_Plus_One.h \
     myiterator.h \
