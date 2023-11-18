@@ -8,7 +8,7 @@ extern  printf
 section .data
         LONG_MIN        equ     0x8000000000000000
         LONG_MAX        equ     0x7FFFFFFFFFFFFFFF
-        series1         dq      7,1,4,1,6,9,2,9,2
+        series1         dq      7,1,4,2,6,9,2,9,2
         N               equ     9
         Min             dq      LONG_MAX
         Max             dq      LONG_MIN
@@ -50,7 +50,7 @@ next:
 done:
         mov     rsi, r10
         cmp     r10, r11
-        jge     write
+        jle     write
         mov     rsi, r11
 write:
         xor     rax, rax
