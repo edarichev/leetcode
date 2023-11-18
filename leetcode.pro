@@ -57,6 +57,7 @@ HEADERS += \
     cpptemplates/variadic1.h \
     helpers.h \
     leetcode/c0001_Two_Sum.h \
+    leetcode/c0002_Add_Two_Numbers.h \
     leetcode/c0009_Palindrome_Number.h \
     leetcode/c0021_Merge_Two_Sorted_Lists.h \
     leetcode/c0035_Search_Insert_Position.h \

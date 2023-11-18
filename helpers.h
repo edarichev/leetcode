@@ -1,6 +1,7 @@
 #ifndef HELPERS_H
 #define HELPERS_H
 
+#include <list>
 #include <vector>
 #include <iostream>
 #include <cassert>
