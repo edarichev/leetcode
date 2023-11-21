@@ -63,6 +63,7 @@ HEADERS += \
     leetcode/c0021_Merge_Two_Sorted_Lists.h \
     leetcode/c0035_Search_Insert_Position.h \
     leetcode/c0066_Plus_One.h \
+    leetcode/c0070_Climbing_Stairs.h \
     myiterator.h \
     leetcode/c0011_Container_With_Most_Water.h \
     leetcode/c0012.h \
