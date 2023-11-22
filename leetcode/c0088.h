@@ -50,6 +50,7 @@ Follow up: Can you come up with an algorithm that runs in O(m + n) time?
 
 #include "global.h"
 
+static int _ = [](){ios_base::sync_with_stdio(false); cin.tie(nullptr); cout.tie(nullptr);return 0;}();
 
 class Solution {
 public:
