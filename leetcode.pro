@@ -66,6 +66,7 @@ HEADERS += \
     leetcode/c0070_Climbing_Stairs.h \
     leetcode/c0083_Remove_Duplicates_from_Sorted_List.h \
     leetcode/c0094_Binary_Tree_Inorder_Traversal.h \
+    leetcode/c0136_Single_Number.h \
     myiterator.h \
     leetcode/c0011_Container_With_Most_Water.h \
     leetcode/c0012.h \

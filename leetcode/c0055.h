@@ -32,6 +32,8 @@ Constraints:
 
 #include "global.h"
 
+static int _ = [](){ios_base::sync_with_stdio(false); cin.tie(nullptr); cout.tie(nullptr);return 0;}();
+
 class Solution {
 public:
     bool canJump(vector<int>& nums) {
@@ -59,7 +61,6 @@ public:
         // элемента, т.к. если мы делаем проход от некоего элемента n+2, это значит, что при предыдущем
         // максимальном шаге 3 мы ничего не нашли и принялись считать для шага 2,
         // который как раз и попадает на n+2.
-        ios_base::sync_with_stdio(false);
         int n = nums.size();
         int next = 0;
         for (int i = 0; i < n; i++) {
