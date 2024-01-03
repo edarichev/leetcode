@@ -8,6 +8,9 @@ SOURCES += \
         main.cpp
 
 HEADERS += \
+    alg/sort_insertion.h \
+    alg/sort_shell.h \
+    alg/sortselection.h \
     car/bintreeequals.h \
     car/bnode.h \
     car/car_1_1.h \
