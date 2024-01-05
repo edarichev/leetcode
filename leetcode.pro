@@ -42,6 +42,7 @@ HEADERS += \
     car/car_4_4.h \
     car/car_4_5.h \
     car/car_4_6.h \
+    car/car_4_7.h \
     car/car_7_2.h \
     car/cppshki.h \
     car/eventstests.h \
